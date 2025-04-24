@@ -1,0 +1,407 @@
+Date,Team,PTS,Opp,PTS_Opp,Weight
+2023-09-23,UCAM Murcia,104.0,Covirán Granada,101.0,0.5
+2023-09-23,Zunder Palencia,64.0,Monbus Obradoiro,84.0,0.5
+2023-09-23,Lenovo Tenerife,75.0,Unicaja,98.0,0.5
+2023-09-23,Bàsquet Girona,89.0,Valencia Basket,85.0,0.5
+2023-09-24,Joventut,79.0,Barça,95.0,0.5
+2023-09-24,MoraBanc Andorra,73.0,Surne Bilbao Basket,95.0,0.5
+2023-09-24,Baskonia,88.0,Río Breogán,79.0,0.5
+2023-09-24,Baxi Manresa,92.0,Dreamland Gran Canaria,97.0,0.5
+2023-09-24,Casademont Zaragoza,70.0,Real Madrid,101.0,0.5
+2023-09-27,Valencia Basket,94.0,Lenovo Tenerife,86.0,0.5
+2023-09-27,Baskonia,76.0,UCAM Murcia,88.0,0.5
+2023-09-27,Unicaja,92.0,Casademont Zaragoza,100.0,0.5
+2023-09-28,Covirán Granada,80.0,Joventut,86.0,0.5
+2023-09-28,Dreamland Gran Canaria,64.0,Bàsquet Girona,88.0,0.5
+2023-09-29,Río Breogán,69.0,MoraBanc Andorra,63.0,0.5
+2023-09-29,Real Madrid,94.0,Baxi Manresa,88.0,0.5
+2023-09-29,Barça,84.0,Zunder Palencia,83.0,0.5
+2023-09-30,Lenovo Tenerife,68.0,UCAM Murcia,80.0,0.5
+2023-09-30,Valencia Basket,82.0,Unicaja,76.0,0.5
+2023-09-30,Surne Bilbao Basket,72.0,Baskonia,92.0,0.5
+2023-10-01,Zunder Palencia,74.0,MoraBanc Andorra,87.0,0.5
+2023-10-01,Baxi Manresa,89.0,Río Breogán,85.0,0.5
+2023-10-01,Bàsquet Girona,102.0,Covirán Granada,91.0,0.5
+2023-10-01,Dreamland Gran Canaria,75.0,Joventut,89.0,0.5
+2023-10-01,Barça,79.0,Real Madrid,86.0,0.5
+2023-10-03,Wolves Vilnius,78.0,Paris Basketball,105.0,1.0
+2023-10-03,Cedevita Olimpija,73.0,Hapoel Tel Aviv,100.0,1.0
+2023-10-04,Beşiktaş Emlakjet,63.0,Joventut,62.0,1.0
+2023-10-04,Surne Bilbao Basket,78.0,Monbus Obradoiro,77.0,0.5
+2023-10-04,Umana Reyer Venezia,69.0,London Lions,76.0,1.0
+2023-10-04,Veolia Towers Hamburg,77.0,Prometey,97.0,1.0
+2023-10-07,Casademont Zaragoza,75.0,Baxi Manresa,81.0,0.5
+2023-10-07,Joventut,75.0,Zunder Palencia,69.0,0.5
+2023-10-07,Río Breogán,81.0,Lenovo Tenerife,88.0,0.5
+2023-10-08,MoraBanc Andorra,87.0,Barça,91.0,0.5
+2023-10-08,Real Madrid,93.0,Bàsquet Girona,74.0,0.5
+2023-10-08,UCAM Murcia,68.0,Surne Bilbao Basket,77.0,0.5
+2023-10-08,Baskonia,90.0,Covirán Granada,81.0,0.5
+2023-10-08,Unicaja,69.0,Dreamland Gran Canaria,76.0,0.5
+2023-10-08,Monbus Obradoiro,79.0,Valencia Basket,85.0,0.5
+2023-10-10,London Lions,100.0,Veolia Towers Hamburg,94.0,1.0
+2023-10-10,Prometey,70.0,Beşiktaş Emlakjet,92.0,1.0
+2023-10-11,Joventut,88.0,Cedevita Olimpija,87.0,1.0
+2023-10-11,Paris Basketball,81.0,Umana Reyer Venezia,75.0,1.0
+2023-10-11,Wolves Vilnius,,Hapoel Tel Aviv,,1.0
+2023-10-11,Casademont Zaragoza,72.0,Monbus Obradoiro,80.0,0.5
+2023-10-14,Lenovo Tenerife,79.0,Bàsquet Girona,66.0,0.5
+2023-10-14,Monbus Obradoiro,89.0,MoraBanc Andorra,92.0,0.5
+2023-10-14,Joventut,91.0,Unicaja,113.0,0.5
+2023-10-14,Covirán Granada,93.0,Surne Bilbao Basket,94.0,0.5
+2023-10-15,UCAM Murcia,92.0,Real Madrid,106.0,0.5
+2023-10-15,Baskonia,85.0,Casademont Zaragoza,80.0,0.5
+2023-10-15,Zunder Palencia,91.0,Baxi Manresa,92.0,0.5
+2023-10-15,Barça,83.0,Dreamland Gran Canaria,73.0,0.5
+2023-10-15,Valencia Basket,61.0,Río Breogán,59.0,0.5
+2023-10-17,Hapoel Tel Aviv,,Umana Reyer Venezia,,1.0
+2023-10-17,Hapoel Tel Aviv,97.0,Umana Reyer Venezia,81.0,1.0
+2023-10-18,Paris Basketball,105.0,Veolia Towers Hamburg,69.0,1.0
+2023-10-18,London Lions,99.0,Prometey,87.0,1.0
+2023-10-18,Veolia Towers Hamburg,,Paris Basketball,,1.0
+2023-10-18,Wolves Vilnius,98.0,Joventut,107.0,1.0
+2023-10-18,Cedevita Olimpija,66.0,Beşiktaş Emlakjet,73.0,1.0
+2023-10-21,MoraBanc Andorra,94.0,Joventut,84.0,0.5
+2023-10-21,Dreamland Gran Canaria,69.0,UCAM Murcia,95.0,0.5
+2023-10-21,Bàsquet Girona,79.0,Monbus Obradoiro,85.0,0.5
+2023-10-21,Río Breogán,59.0,Zunder Palencia,74.0,0.5
+2023-10-22,Casademont Zaragoza,70.0,Covirán Granada,78.0,0.5
+2023-10-22,Unicaja,93.0,Baskonia,84.0,0.5
+2023-10-22,Real Madrid,82.0,Lenovo Tenerife,76.0,0.5
+2023-10-22,Surne Bilbao Basket,82.0,Barça,91.0,0.5
+2023-10-22,Baxi Manresa,79.0,Valencia Basket,84.0,0.5
+2023-10-24,Beşiktaş Emlakjet,88.0,Wolves Vilnius,90.0,1.0
+2023-10-24,Paris Basketball,106.0,London Lions,102.0,1.0
+2023-10-24,Hapoel Tel Aviv,111.0,Veolia Towers Hamburg,72.0,1.0
+2023-10-24,Joventut,64.0,Umana Reyer Venezia,79.0,1.0
+2023-10-25,Prometey,90.0,Cedevita Olimpija,83.0,1.0
+2023-10-28,Joventut,83.0,Casademont Zaragoza,113.0,0.5
+2023-10-28,Río Breogán,70.0,Unicaja,87.0,0.5
+2023-10-28,UCAM Murcia,76.0,Bàsquet Girona,82.0,0.5
+2023-10-28,Monbus Obradoiro,80.0,Dreamland Gran Canaria,87.0,0.5
+2023-10-29,Zunder Palencia,68.0,Real Madrid,91.0,0.5
+2023-10-29,Barça,68.0,Valencia Basket,71.0,0.5
+2023-10-29,Baskonia,68.0,MoraBanc Andorra,85.0,0.5
+2023-10-29,Lenovo Tenerife,94.0,Surne Bilbao Basket,93.0,0.5
+2023-10-29,Covirán Granada,84.0,Baxi Manresa,90.0,0.5
+2023-10-31,Wolves Vilnius,86.0,Cedevita Olimpija,78.0,1.0
+2023-10-31,Veolia Towers Hamburg,76.0,Joventut,108.0,1.0
+2023-11-01,Umana Reyer Venezia,68.0,Beşiktaş Emlakjet,74.0,1.0
+2023-11-01,London Lions,,Hapoel Tel Aviv,,1.0
+2023-11-01,Paris Basketball,96.0,Prometey,79.0,1.0
+2023-11-02,Hapoel Tel Aviv,98.0,London Lions,90.0,1.0
+2023-11-04,Surne Bilbao Basket,63.0,Casademont Zaragoza,77.0,0.5
+2023-11-04,Monbus Obradoiro,74.0,Unicaja,87.0,0.5
+2023-11-04,Bàsquet Girona,80.0,Zunder Palencia,76.0,0.5
+2023-11-04,MoraBanc Andorra,53.0,Lenovo Tenerife,71.0,0.5
+2023-11-05,Dreamland Gran Canaria,88.0,Baskonia,76.0,0.5
+2023-11-05,Baxi Manresa,74.0,UCAM Murcia,87.0,0.5
+2023-11-05,Valencia Basket,76.0,Joventut,80.0,0.5
+2023-11-05,Real Madrid,83.0,Covirán Granada,76.0,0.5
+2023-11-05,Barça,79.0,Río Breogán,63.0,0.5
+2023-11-07,Cedevita Olimpija,87.0,Umana Reyer Venezia,95.0,1.0
+2023-11-08,Veolia Towers Hamburg,78.0,Beşiktaş Emlakjet,90.0,1.0
+2023-11-08,London Lions,87.0,Joventut,76.0,1.0
+2023-11-08,Joventut,,London Lions,,1.0
+2023-11-08,Hapoel Tel Aviv,87.0,Paris Basketball,114.0,1.0
+2023-11-08,Prometey,71.0,Wolves Vilnius,85.0,1.0
+2023-11-11,Baxi Manresa,90.0,MoraBanc Andorra,86.0,0.5
+2023-11-11,UCAM Murcia,76.0,Zunder Palencia,66.0,0.5
+2023-11-11,Joventut,77.0,Río Breogán,85.0,0.5
+2023-11-11,Unicaja,82.0,Bàsquet Girona,78.0,0.5
+2023-11-12,Casademont Zaragoza,69.0,Valencia Basket,76.0,0.5
+2023-11-12,Baskonia,95.0,Monbus Obradoiro,108.0,0.5
+2023-11-12,Covirán Granada,75.0,Dreamland Gran Canaria,89.0,0.5
+2023-11-12,Real Madrid,87.0,Surne Bilbao Basket,84.0,0.5
+2023-11-12,Lenovo Tenerife,83.0,Barça,94.0,0.5
+2023-11-14,Paris Basketball,101.0,Joventut,94.0,1.0
+2023-11-14,Hapoel Tel Aviv,89.0,Prometey,98.0,1.0
+2023-11-15,Umana Reyer Venezia,93.0,Wolves Vilnius,77.0,1.0
+2023-11-15,Veolia Towers Hamburg,86.0,Cedevita Olimpija,83.0,1.0
+2023-11-15,London Lions,83.0,Beşiktaş Emlakjet,80.0,1.0
+2023-11-18,Río Breogán,83.0,Bàsquet Girona,87.0,0.5
+2023-11-18,Zunder Palencia,71.0,Lenovo Tenerife,92.0,0.5
+2023-11-18,Dreamland Gran Canaria,101.0,Casademont Zaragoza,94.0,0.5
+2023-11-19,Monbus Obradoiro,56.0,Baxi Manresa,76.0,0.5
+2023-11-19,Unicaja,99.0,Real Madrid,93.0,0.5
+2023-11-19,Valencia Basket,74.0,Baskonia,83.0,0.5
+2023-11-19,MoraBanc Andorra,88.0,Covirán Granada,91.0,0.5
+2023-11-19,Barça,73.0,UCAM Murcia,82.0,0.5
+2023-11-19,Surne Bilbao Basket,78.0,Joventut,81.0,0.5
+2023-11-21,Beşiktaş Emlakjet,68.0,Paris Basketball,63.0,1.0
+2023-11-21,Wolves Vilnius,84.0,Veolia Towers Hamburg,71.0,1.0
+2023-11-22,Umana Reyer Venezia,82.0,Prometey,89.0,1.0
+2023-11-22,Cedevita Olimpija,95.0,London Lions,101.0,1.0
+2023-11-22,Joventut,99.0,Hapoel Tel Aviv,103.0,1.0
+2023-11-25,Valencia Basket,101.0,Zunder Palencia,77.0,0.5
+2023-11-25,Joventut,73.0,UCAM Murcia,105.0,0.5
+2023-11-25,Unicaja,67.0,Surne Bilbao Basket,43.0,0.5
+2023-11-25,Covirán Granada,94.0,Monbus Obradoiro,77.0,0.5
+2023-11-26,Baxi Manresa,86.0,Baskonia,94.0,0.5
+2023-11-26,Lenovo Tenerife,94.0,Dreamland Gran Canaria,82.0,0.5
+2023-11-26,Casademont Zaragoza,77.0,Río Breogán,82.0,0.5
+2023-11-26,MoraBanc Andorra,76.0,Real Madrid,85.0,0.5
+2023-11-26,Real Madrid,,MoraBanc Andorra,,0.5
+2023-11-26,Bàsquet Girona,78.0,Barça,115.0,0.5
+2023-11-28,Veolia Towers Hamburg,77.0,Umana Reyer Venezia,94.0,1.0
+2023-11-28,London Lions,101.0,Wolves Vilnius,87.0,1.0
+2023-11-29,Hapoel Tel Aviv,,Beşiktaş Emlakjet,,1.0
+2023-11-29,Paris Basketball,93.0,Cedevita Olimpija,77.0,1.0
+2023-11-29,Prometey,76.0,Joventut,79.0,1.0
+2023-11-29,Beşiktaş Emlakjet,75.0,Hapoel Tel Aviv,81.0,1.0
+2023-12-02,MoraBanc Andorra,104.0,Bàsquet Girona,107.0,0.5
+2023-12-02,Monbus Obradoiro,92.0,Lenovo Tenerife,87.0,0.5
+2023-12-02,UCAM Murcia,76.0,Casademont Zaragoza,82.0,0.5
+2023-12-02,Baxi Manresa,77.0,Unicaja,91.0,0.5
+2023-12-03,Baskonia,72.0,Joventut,77.0,0.5
+2023-12-03,Río Breogán,58.0,Real Madrid,91.0,0.5
+2023-12-03,Surne Bilbao Basket,85.0,Valencia Basket,79.0,0.5
+2023-12-03,Zunder Palencia,73.0,Dreamland Gran Canaria,100.0,0.5
+2023-12-03,Covirán Granada,69.0,Barça,80.0,0.5
+2023-12-05,Prometey,97.0,Veolia Towers Hamburg,83.0,1.0
+2023-12-05,London Lions,95.0,Umana Reyer Venezia,91.0,1.0
+2023-12-06,Joventut,85.0,Beşiktaş Emlakjet,81.0,1.0
+2023-12-06,Hapoel Tel Aviv,95.0,Cedevita Olimpija,80.0,1.0
+2023-12-06,Paris Basketball,110.0,Wolves Vilnius,79.0,1.0
+2023-12-09,Unicaja,87.0,MoraBanc Andorra,81.0,0.5
+2023-12-09,Río Breogán,76.0,Surne Bilbao Basket,68.0,0.5
+2023-12-09,Zunder Palencia,85.0,Covirán Granada,109.0,0.5
+2023-12-09,Bàsquet Girona,87.0,Baxi Manresa,101.0,0.5
+2023-12-10,Monbus Obradoiro,69.0,Joventut,78.0,0.5
+2023-12-10,Valencia Basket,85.0,UCAM Murcia,77.0,0.5
+2023-12-10,Dreamland Gran Canaria,71.0,Real Madrid,97.0,0.5
+2023-12-10,Lenovo Tenerife,100.0,Baskonia,104.0,0.5
+2023-12-10,Barça,99.0,Casademont Zaragoza,101.0,0.5
+2023-12-12,Umana Reyer Venezia,70.0,Paris Basketball,100.0,1.0
+2023-12-12,Hapoel Tel Aviv,89.0,Wolves Vilnius,81.0,1.0
+2023-12-12,Zunder Palencia,82.0,Baskonia,94.0,0.5
+2023-12-13,Cedevita Olimpija,81.0,Joventut,83.0,1.0
+2023-12-13,Veolia Towers Hamburg,83.0,London Lions,81.0,1.0
+2023-12-13,Beşiktaş Emlakjet,70.0,Prometey,89.0,1.0
+2023-12-13,Baxi Manresa,83.0,Barça,82.0,0.5
+2023-12-16,Surne Bilbao Basket,75.0,Dreamland Gran Canaria,83.0,0.5
+2023-12-16,Lenovo Tenerife,76.0,Baxi Manresa,73.0,0.5
+2023-12-16,Real Madrid,85.0,Monbus Obradoiro,74.0,0.5
+2023-12-16,Covirán Granada,70.0,Unicaja,92.0,0.5
+2023-12-17,Baskonia,62.0,Barça,82.0,0.5
+2023-12-17,Joventut,82.0,Bàsquet Girona,67.0,0.5
+2023-12-17,UCAM Murcia,83.0,Río Breogán,74.0,0.5
+2023-12-17,MoraBanc Andorra,82.0,Valencia Basket,86.0,0.5
+2023-12-17,Casademont Zaragoza,88.0,Zunder Palencia,80.0,0.5
+2023-12-19,Beşiktaş Emlakjet,88.0,Cedevita Olimpija,83.0,1.0
+2023-12-20,Umana Reyer Venezia,,Hapoel Tel Aviv,,1.0
+2023-12-20,Joventut,94.0,Wolves Vilnius,79.0,1.0
+2023-12-20,Veolia Towers Hamburg,91.0,Paris Basketball,120.0,1.0
+2023-12-20,Umana Reyer Venezia,81.0,Hapoel Tel Aviv,100.0,1.0
+2023-12-20,Prometey,88.0,London Lions,89.0,1.0
+2023-12-22,Bàsquet Girona,74.0,Surne Bilbao Basket,80.0,0.5
+2023-12-22,Dreamland Gran Canaria,98.0,MoraBanc Andorra,77.0,0.5
+2023-12-22,Unicaja,88.0,UCAM Murcia,65.0,0.5
+2023-12-22,Casademont Zaragoza,70.0,Lenovo Tenerife,64.0,0.5
+2023-12-23,Monbus Obradoiro,90.0,Río Breogán,88.0,0.5
+2023-12-23,Real Madrid,101.0,Joventut,73.0,0.5
+2023-12-23,Covirán Granada,81.0,Valencia Basket,75.0,0.5
+2023-12-26,Umana Reyer Venezia,81.0,Joventut,89.0,1.0
+2023-12-26,London Lions,77.0,Paris Basketball,94.0,1.0
+2023-12-27,Wolves Vilnius,59.0,Beşiktaş Emlakjet,72.0,1.0
+2023-12-27,Cedevita Olimpija,100.0,Prometey,105.0,1.0
+2023-12-27,Barça,71.0,Unicaja,91.0,0.5
+2023-12-27,Veolia Towers Hamburg,101.0,Hapoel Tel Aviv,118.0,1.0
+2023-12-28,Lenovo Tenerife,80.0,Covirán Granada,68.0,0.5
+2023-12-28,MoraBanc Andorra,76.0,Casademont Zaragoza,72.0,0.5
+2023-12-29,UCAM Murcia,87.0,Monbus Obradoiro,79.0,0.5
+2023-12-29,Joventut,89.0,Baxi Manresa,102.0,0.5
+2023-12-30,Río Breogán,60.0,Dreamland Gran Canaria,86.0,0.5
+2023-12-30,Baskonia,93.0,Bàsquet Girona,85.0,0.5
+2023-12-30,Surne Bilbao Basket,72.0,Zunder Palencia,78.0,0.5
+2023-12-31,Valencia Basket,74.0,Real Madrid,83.0,0.5
+2024-01-03,Wolves Vilnius,80.0,Hapoel Tel Aviv,89.0,1.0
+2024-01-06,Bàsquet Girona,74.0,Casademont Zaragoza,81.0,0.5
+2024-01-06,Joventut,70.0,Lenovo Tenerife,90.0,0.5
+2024-01-06,UCAM Murcia,73.0,MoraBanc Andorra,98.0,0.5
+2024-01-06,Unicaja,86.0,Zunder Palencia,72.0,0.5
+2024-01-07,Monbus Obradoiro,90.0,Barça,92.0,0.5
+2024-01-07,Baxi Manresa,54.0,Surne Bilbao Basket,74.0,0.5
+2024-01-07,Covirán Granada,79.0,Río Breogán,85.0,0.5
+2024-01-07,Dreamland Gran Canaria,86.0,Valencia Basket,79.0,0.5
+2024-01-07,Real Madrid,99.0,Baskonia,85.0,0.5
+2024-01-09,London Lions,100.0,Hapoel Tel Aviv,96.0,1.0
+2024-01-09,Cedevita Olimpija,89.0,Wolves Vilnius,91.0,1.0
+2024-01-10,Prometey,72.0,Paris Basketball,93.0,1.0
+2024-01-10,Joventut,96.0,Veolia Towers Hamburg,90.0,1.0
+2024-01-10,Beşiktaş Emlakjet,96.0,Umana Reyer Venezia,106.0,1.0
+2024-01-13,Dreamland Gran Canaria,77.0,Unicaja,80.0,0.5
+2024-01-13,Surne Bilbao Basket,78.0,MoraBanc Andorra,87.0,0.5
+2024-01-13,Casademont Zaragoza,84.0,Joventut,95.0,0.5
+2024-01-13,Zunder Palencia,86.0,Bàsquet Girona,84.0,0.5
+2024-01-14,Baskonia,90.0,Baxi Manresa,82.0,0.5
+2024-01-14,Río Breogán,80.0,Valencia Basket,88.0,0.5
+2024-01-14,Real Madrid,61.0,UCAM Murcia,73.0,0.5
+2024-01-14,Monbus Obradoiro,74.0,Covirán Granada,77.0,0.5
+2024-01-14,Barça,83.0,Lenovo Tenerife,80.0,0.5
+2024-01-17,Umana Reyer Venezia,104.0,Cedevita Olimpija,93.0,1.0
+2024-01-17,Beşiktaş Emlakjet,94.0,Veolia Towers Hamburg,83.0,1.0
+2024-01-17,Paris Basketball,104.0,Hapoel Tel Aviv,86.0,1.0
+2024-01-17,Joventut,82.0,London Lions,80.0,1.0
+2024-01-17,Wolves Vilnius,64.0,Prometey,91.0,1.0
+2024-01-20,Lenovo Tenerife,97.0,Monbus Obradoiro,86.0,0.5
+2024-01-20,Unicaja,81.0,Joventut,85.0,0.5
+2024-01-20,Baxi Manresa,95.0,Zunder Palencia,88.0,0.5
+2024-01-20,UCAM Murcia,80.0,Dreamland Gran Canaria,91.0,0.5
+2024-01-21,Valencia Basket,85.0,Casademont Zaragoza,75.0,0.5
+2024-01-21,MoraBanc Andorra,95.0,Baskonia,108.0,0.5
+2024-01-21,Surne Bilbao Basket,80.0,Real Madrid,95.0,0.5
+2024-01-21,Barça,94.0,Covirán Granada,61.0,0.5
+2024-01-21,Bàsquet Girona,75.0,Río Breogán,93.0,0.5
+2024-01-23,Joventut,82.0,Paris Basketball,89.0,1.0
+2024-01-24,Beşiktaş Emlakjet,72.0,London Lions,93.0,1.0
+2024-01-24,Prometey,113.0,Hapoel Tel Aviv,105.0,1.0
+2024-01-24,Cedevita Olimpija,114.0,Veolia Towers Hamburg,83.0,1.0
+2024-01-24,Wolves Vilnius,75.0,Umana Reyer Venezia,57.0,1.0
+2024-01-27,Río Breogán,68.0,Baxi Manresa,83.0,0.5
+2024-01-27,UCAM Murcia,73.0,Lenovo Tenerife,75.0,0.5
+2024-01-27,Casademont Zaragoza,83.0,Surne Bilbao Basket,86.0,0.5
+2024-01-27,Joventut,86.0,MoraBanc Andorra,79.0,0.5
+2024-01-28,Covirán Granada,61.0,Bàsquet Girona,80.0,0.5
+2024-01-28,Zunder Palencia,94.0,Barça,102.0,0.5
+2024-01-28,Real Madrid,77.0,Dreamland Gran Canaria,100.0,0.5
+2024-01-28,Unicaja,83.0,Valencia Basket,63.0,0.5
+2024-01-28,Monbus Obradoiro,79.0,Baskonia,89.0,0.5
+2024-01-30,Veolia Towers Hamburg,84.0,Wolves Vilnius,94.0,1.0
+2024-01-30,Prometey,92.0,Umana Reyer Venezia,108.0,1.0
+2024-01-30,Hapoel Tel Aviv,91.0,Joventut,85.0,1.0
+2024-01-30,Paris Basketball,95.0,Beşiktaş Emlakjet,72.0,1.0
+2024-01-31,London Lions,92.0,Cedevita Olimpija,85.0,1.0
+2024-02-03,Río Breogán,61.0,Casademont Zaragoza,63.0,0.5
+2024-02-03,MoraBanc Andorra,86.0,Unicaja,92.0,0.5
+2024-02-03,Zunder Palencia,77.0,Joventut,89.0,0.5
+2024-02-03,Surne Bilbao Basket,76.0,UCAM Murcia,96.0,0.5
+2024-02-04,Valencia Basket,79.0,Barça,76.0,0.5
+2024-02-04,Baskonia,78.0,Lenovo Tenerife,95.0,0.5
+2024-02-04,Baxi Manresa,94.0,Covirán Granada,93.0,0.5
+2024-02-04,Dreamland Gran Canaria,81.0,Monbus Obradoiro,72.0,0.5
+2024-02-04,Bàsquet Girona,79.0,Real Madrid,92.0,0.5
+2024-02-06,Umana Reyer Venezia,90.0,Veolia Towers Hamburg,83.0,1.0
+2024-02-07,Hapoel Tel Aviv,94.0,Beşiktaş Emlakjet,73.0,1.0
+2024-02-07,Wolves Vilnius,85.0,London Lions,80.0,1.0
+2024-02-07,Joventut,80.0,Prometey,94.0,1.0
+2024-02-07,Cedevita Olimpija,66.0,Paris Basketball,119.0,1.0
+2024-02-10,Bàsquet Girona,66.0,MoraBanc Andorra,93.0,0.5
+2024-02-10,Unicaja,90.0,Monbus Obradoiro,78.0,0.5
+2024-02-10,Dreamland Gran Canaria,58.0,Zunder Palencia,82.0,0.5
+2024-02-10,Lenovo Tenerife,106.0,Casademont Zaragoza,100.0,0.5
+2024-02-11,Valencia Basket,78.0,Surne Bilbao Basket,93.0,0.5
+2024-02-11,Real Madrid,80.0,Río Breogán,73.0,0.5
+2024-02-11,Barça,87.0,Baxi Manresa,77.0,0.5
+2024-02-11,Covirán Granada,78.0,UCAM Murcia,91.0,0.5
+2024-02-11,Joventut,81.0,Baskonia,78.0,0.5
+2024-03-02,Surne Bilbao Basket,84.0,Unicaja,101.0,0.5
+2024-03-02,Covirán Granada,83.0,Lenovo Tenerife,89.0,0.5
+2024-03-02,Río Breogán,70.0,Joventut,78.0,0.5
+2024-03-02,UCAM Murcia,88.0,Baxi Manresa,83.0,0.5
+2024-03-03,Zunder Palencia,93.0,Valencia Basket,111.0,0.5
+2024-03-03,Baskonia,80.0,Dreamland Gran Canaria,98.0,0.5
+2024-03-03,Real Madrid,89.0,MoraBanc Andorra,70.0,0.5
+2024-03-03,Casademont Zaragoza,68.0,Barça,109.0,0.5
+2024-03-03,Monbus Obradoiro,77.0,Bàsquet Girona,78.0,0.5
+2024-03-09,Unicaja,76.0,Río Breogán,65.0,0.5
+2024-03-09,Casademont Zaragoza,85.0,Dreamland Gran Canaria,111.0,0.5
+2024-03-09,Baxi Manresa,83.0,Joventut,81.0,0.5
+2024-03-09,Bàsquet Girona,73.0,UCAM Murcia,81.0,0.5
+2024-03-10,Surne Bilbao Basket,79.0,Covirán Granada,87.0,0.5
+2024-03-10,Valencia Basket,97.0,Monbus Obradoiro,75.0,0.5
+2024-03-10,MoraBanc Andorra,70.0,Zunder Palencia,77.0,0.5
+2024-03-10,Lenovo Tenerife,78.0,Real Madrid,80.0,0.5
+2024-03-10,Barça,96.0,Baskonia,103.0,0.5
+2024-03-16,Covirán Granada,88.0,Baskonia,104.0,0.5
+2024-03-16,Monbus Obradoiro,81.0,UCAM Murcia,94.0,0.5
+2024-03-16,Dreamland Gran Canaria,71.0,Baxi Manresa,78.0,0.5
+2024-03-16,Lenovo Tenerife,79.0,MoraBanc Andorra,66.0,0.5
+2024-03-17,Río Breogán,88.0,Barça,85.0,0.5
+2024-03-17,Valencia Basket,88.0,Bàsquet Girona,92.0,0.5
+2024-03-17,Joventut,71.0,Surne Bilbao Basket,92.0,0.5
+2024-03-17,Real Madrid,87.0,Unicaja,81.0,0.5
+2024-03-17,Zunder Palencia,96.0,Casademont Zaragoza,103.0,0.5
+2024-03-23,Casademont Zaragoza,80.0,MoraBanc Andorra,85.0,0.5
+2024-03-23,Baxi Manresa,84.0,Bàsquet Girona,83.0,0.5
+2024-03-23,Unicaja,90.0,Covirán Granada,62.0,0.5
+2024-03-23,Río Breogán,72.0,Monbus Obradoiro,83.0,0.5
+2024-03-24,UCAM Murcia,82.0,Valencia Basket,83.0,0.5
+2024-03-24,Barça,93.0,Joventut,75.0,0.5
+2024-03-24,Real Madrid,86.0,Zunder Palencia,78.0,0.5
+2024-03-24,Baskonia,80.0,Surne Bilbao Basket,82.0,0.5
+2024-03-24,Dreamland Gran Canaria,92.0,Lenovo Tenerife,93.0,0.5
+2024-03-30,Surne Bilbao Basket,80.0,Río Breogán,68.0,0.5
+2024-03-30,Lenovo Tenerife,89.0,Zunder Palencia,68.0,0.5
+2024-03-30,Bàsquet Girona,80.0,Unicaja,111.0,0.5
+2024-03-30,Casademont Zaragoza,94.0,Baskonia,102.0,0.5
+2024-03-31,Joventut,83.0,Covirán Granada,86.0,0.5
+2024-03-31,Valencia Basket,71.0,Dreamland Gran Canaria,79.0,0.5
+2024-03-31,MoraBanc Andorra,86.0,UCAM Murcia,99.0,0.5
+2024-03-31,Barça,89.0,Monbus Obradoiro,84.0,0.5
+2024-03-31,Baxi Manresa,83.0,Real Madrid,72.0,0.5
+2024-04-06,UCAM Murcia,82.0,Joventut,75.0,0.5
+2024-04-06,Dreamland Gran Canaria,71.0,Surne Bilbao Basket,81.0,0.5
+2024-04-06,Zunder Palencia,65.0,Río Breogán,73.0,0.5
+2024-04-06,Monbus Obradoiro,79.0,Casademont Zaragoza,98.0,0.5
+2024-04-07,Covirán Granada,62.0,MoraBanc Andorra,88.0,0.5
+2024-04-07,Real Madrid,79.0,Barça,85.0,0.5
+2024-04-07,Bàsquet Girona,60.0,Lenovo Tenerife,74.0,0.5
+2024-04-07,Unicaja,88.0,Baxi Manresa,77.0,0.5
+2024-04-07,Baskonia,101.0,Valencia Basket,111.0,0.5
+2024-04-13,Surne Bilbao Basket,84.0,Lenovo Tenerife,101.0,0.5
+2024-04-13,Zunder Palencia,77.0,UCAM Murcia,90.0,0.5
+2024-04-13,Baxi Manresa,94.0,Monbus Obradoiro,86.0,0.5
+2024-04-13,Casademont Zaragoza,72.0,Unicaja,83.0,0.5
+2024-04-14,Barça,81.0,Bàsquet Girona,75.0,0.5
+2024-04-14,Valencia Basket,88.0,Covirán Granada,81.0,0.5
+2024-04-14,MoraBanc Andorra,92.0,Dreamland Gran Canaria,97.0,0.5
+2024-04-14,Joventut,92.0,Real Madrid,95.0,0.5
+2024-04-14,Río Breogán,74.0,Baskonia,76.0,0.5
+2024-04-20,Covirán Granada,91.0,Zunder Palencia,83.0,0.5
+2024-04-20,MoraBanc Andorra,97.0,Baxi Manresa,90.0,0.5
+2024-04-20,UCAM Murcia,86.0,Barça,97.0,0.5
+2024-04-20,Dreamland Gran Canaria,77.0,Río Breogán,70.0,0.5
+2024-04-21,Monbus Obradoiro,75.0,Surne Bilbao Basket,72.0,0.5
+2024-04-21,Bàsquet Girona,90.0,Joventut,96.0,0.5
+2024-04-21,Baskonia,91.0,Unicaja,95.0,0.5
+2024-04-21,Lenovo Tenerife,73.0,Valencia Basket,98.0,0.5
+2024-04-21,Real Madrid,79.0,Casademont Zaragoza,70.0,0.5
+2024-04-27,Surne Bilbao Basket,68.0,Bàsquet Girona,81.0,0.5
+2024-04-27,Río Breogán,85.0,Covirán Granada,84.0,0.5
+2024-04-27,Joventut,79.0,Dreamland Gran Canaria,97.0,0.5
+2024-04-27,Baskonia,101.0,Zunder Palencia,94.0,0.5
+2024-04-28,Monbus Obradoiro,69.0,Real Madrid,79.0,0.5
+2024-04-28,Valencia Basket,96.0,Baxi Manresa,98.0,0.5
+2024-04-28,Casademont Zaragoza,,UCAM Murcia,,0.5
+2024-04-28,Barça,92.0,MoraBanc Andorra,108.0,0.5
+2024-04-28,Unicaja,,Lenovo Tenerife,,0.5
+2024-05-01,Unicaja,86.0,Lenovo Tenerife,87.0,0.5
+2024-05-01,Casademont Zaragoza,77.0,UCAM Murcia,82.0,0.5
+2024-05-04,Zunder Palencia,97.0,Surne Bilbao Basket,80.0,0.5
+2024-05-04,MoraBanc Andorra,89.0,Monbus Obradoiro,101.0,0.5
+2024-05-04,Joventut,76.0,Valencia Basket,83.0,0.5
+2024-05-05,UCAM Murcia,71.0,Unicaja,96.0,0.5
+2024-05-05,Dreamland Gran Canaria,89.0,Barça,95.0,0.5
+2024-05-05,Lenovo Tenerife,54.0,Río Breogán,76.0,0.5
+2024-05-05,Covirán Granada,80.0,Real Madrid,94.0,0.5
+2024-05-05,Bàsquet Girona,96.0,Baskonia,92.0,0.5
+2024-05-05,Baxi Manresa,80.0,Casademont Zaragoza,90.0,0.5
+2024-05-09,Monbus Obradoiro,81.0,Zunder Palencia,75.0,0.5
+2024-05-09,Surne Bilbao Basket,81.0,Baxi Manresa,90.0,0.5
+2024-05-09,Lenovo Tenerife,88.0,Joventut,96.0,0.5
+2024-05-10,Unicaja,92.0,Barça,91.0,0.5
+2024-05-10,Covirán Granada,84.0,Casademont Zaragoza,77.0,0.5
+2024-05-10,UCAM Murcia,79.0,Baskonia,94.0,0.5
+2024-05-10,Real Madrid,93.0,Valencia Basket,99.0,0.5
+2024-05-10,Bàsquet Girona,86.0,Dreamland Gran Canaria,78.0,0.5
+2024-05-10,MoraBanc Andorra,92.0,Río Breogán,97.0,0.5
+2024-05-12,Zunder Palencia,69.0,Unicaja,93.0,0.5
+2024-05-12,Baskonia,100.0,Real Madrid,106.0,0.5
+2024-05-12,Joventut,71.0,Monbus Obradoiro,97.0,0.5
+2024-05-12,Barça,72.0,Surne Bilbao Basket,68.0,0.5
+2024-05-12,Baxi Manresa,80.0,Lenovo Tenerife,84.0,0.5
+2024-05-12,Dreamland Gran Canaria,67.0,Covirán Granada,74.0,0.5
+2024-05-12,Casademont Zaragoza,89.0,Bàsquet Girona,79.0,0.5
+2024-05-12,Río Breogán,61.0,UCAM Murcia,68.0,0.5
+2024-05-12,Valencia Basket,71.0,MoraBanc Andorra,99.0,0.5
