@@ -4,7 +4,10 @@ import numpy as np
 
 st.write("## File Upload")
 league_games = st.file_uploader("File for Domestic League Games")
+league_weight = st.slider("Weight for Domestic League Games", 0, 1, 0.5)
+
 european_games = st.file_uploader("File for European Games")
+european_weight = st.slider("Weight for European Games", 0, 1, 1.0)
 
 if league_games is not None:
     league_df = pd.read_csv(league_games)
@@ -19,8 +22,8 @@ if st.button("Rank teams", type="primary"):
     league_df = league_df.rename(columns={'PTS.1': 'PTS_Opp'})
     european_df = european_df.rename(columns={'PTS.1': 'PTS_Opp'})
 
-    league_df["Weight"] = 0.5
-    european_df["Weight"] = 1
+    league_df["Weight"] = league_weight
+    european_df["Weight"] = european_weight
 
     df = pd.concat([league_df, european_df])
 
