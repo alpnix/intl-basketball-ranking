@@ -3,29 +3,40 @@ import pandas as pd
 import numpy as np
 
 st.write("## File Upload")
-league_games = st.file_uploader("File for Domestic League Games")
-league_weight = st.slider("Weight for Domestic League Games", 0, 1, 0.5)
+league_games = st.file_uploader(label="File for Domestic League Games", accept_multiple_files=True)
+league_weight = st.slider("Weight for Domestic League Games", 0, 10, 1)
 
-european_games = st.file_uploader("File for European Games")
-european_weight = st.slider("Weight for European Games", 0, 1, 1.0)
+european_games = st.file_uploader(label="File for European Games", accept_multiple_files=True)
+european_weight = st.slider("Weight for European Games", 0, 10, 2)
 
-if league_games is not None:
-    league_df = pd.read_csv(league_games)
+if len(league_games) > 0:
+    leagues_df = pd.DataFrame()
+    for league_game in league_games: 
+        league_df = pd.read_csv(league_game)
+        league_name = league_game.name.split("_")[0]
+        league_df["League"] = league_name
+        league_df = league_df[['Date', 'Team', 'PTS', 'Opp', 'PTS.1']]
+        league_df = league_df.rename(columns={'PTS.1': 'PTS_Opp'})
+        leagues_df = pd.concat([leagues_df, league_df])
 
-if european_games is not None:
-    european_df = pd.read_csv(european_games)
+    leagues_df["Weight"] = league_weight
+
+
+if len(european_games) > 0: 
+    europes_df = pd.DataFrame()
+    for european_game in european_games:
+        europe_df = pd.read_csv(european_game)
+        europe_name = european_game.name.split("_")[0]
+        europe_df["League"] = europe_name
+        europe_df = europe_df[['Date', 'Team', 'PTS', 'Opp', 'PTS.1']]
+        europe_df = europe_df.rename(columns={'PTS.1': 'PTS_Opp'})
+        europes_df = pd.concat([europes_df, europe_df])
+
+    europes_df["Weight"] = european_weight
 
 
 if st.button("Rank teams", type="primary"):
-    league_df = league_df[['Date', 'Team', 'PTS', 'Opp', 'PTS.1']]
-    european_df = european_df[['Date', 'Team', 'PTS', 'Opp', 'PTS.1']]
-    league_df = league_df.rename(columns={'PTS.1': 'PTS_Opp'})
-    european_df = european_df.rename(columns={'PTS.1': 'PTS_Opp'})
-
-    league_df["Weight"] = league_weight
-    european_df["Weight"] = european_weight
-
-    df = pd.concat([league_df, european_df])
+    df = pd.concat([leagues_df, europes_df])
 
     df['Date'] = pd.to_datetime(df['Date'], format='%a %b %d %Y')
     df = df.sort_values(by=['Date'])
@@ -66,7 +77,7 @@ if st.button("Rank teams", type="primary"):
 
     r = np.linalg.solve(C, b)
 
-    league_teams = set(league_df["Team"])
+    league_teams = set(leagues_df["Team"])
     ranking_increment = 1
     rankings = sorted(zip(teams, r), key=lambda x: x[1], reverse=True)
     for rank, (team, score) in enumerate(rankings, 1):
