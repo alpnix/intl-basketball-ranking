@@ -9,13 +9,16 @@ league_weight = st.slider("Weight for Domestic League Games", 0, 10, 1)
 european_games = st.file_uploader(label="File for European Games", accept_multiple_files=True)
 european_weight = st.slider("Weight for European Games", 0, 10, 2)
 
+league_ratings = {}
+
 if len(league_games) > 0:
     leagues_df = pd.DataFrame()
     for league_game in league_games: 
         league_df = pd.read_csv(league_game)
-        league_name = league_game.name.split("_")[0]
-        league_df["League"] = league_name
         league_df = league_df[['Date', 'Team', 'PTS', 'Opp', 'PTS.1']]
+        league_name = league_game.name.split("_")[0]
+        league_ratings[league_name] = 0
+        league_df["League"] = league_name
         league_df = league_df.rename(columns={'PTS.1': 'PTS_Opp'})
         leagues_df = pd.concat([leagues_df, league_df])
 
@@ -26,9 +29,9 @@ if len(european_games) > 0:
     europes_df = pd.DataFrame()
     for european_game in european_games:
         europe_df = pd.read_csv(european_game)
+        europe_df = europe_df[['Date', 'Team', 'PTS', 'Opp', 'PTS.1']]
         europe_name = european_game.name.split("_")[0]
         europe_df["League"] = europe_name
-        europe_df = europe_df[['Date', 'Team', 'PTS', 'Opp', 'PTS.1']]
         europe_df = europe_df.rename(columns={'PTS.1': 'PTS_Opp'})
         europes_df = pd.concat([europes_df, europe_df])
 
@@ -71,7 +74,7 @@ if st.button("Rank teams", type="primary"):
         elif pts_team < pts_opp:
             b[i] -= weight
             b[j] += weight
-        
+    
     for i in range(n):
         b[i] = 1 + (b[i] / 2)
 
@@ -82,5 +85,11 @@ if st.button("Rank teams", type="primary"):
     rankings = sorted(zip(teams, r), key=lambda x: x[1], reverse=True)
     for rank, (team, score) in enumerate(rankings, 1):
         if team in league_teams:
+            teams_league = leagues_df[leagues_df["Team"] == team]["League"].values[0]
+            league_ratings[teams_league] += score
             st.write(f"{ranking_increment}. {team}: {score:.4f}")
             ranking_increment += 1
+
+    st.write("## League Ratings")
+    for league, rating in league_ratings.items():
+        st.write(f"{league}: {rating:.4f}")
