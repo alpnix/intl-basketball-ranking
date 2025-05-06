@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from math import ceil
 
 st.write("## File Upload")
 league_games = st.file_uploader(label="File for Domestic League Games", accept_multiple_files=True)
@@ -8,6 +9,10 @@ league_weight = st.slider("Weight for Domestic League Games", 0, 10, 1)
 
 european_games = st.file_uploader(label="File for European Games", accept_multiple_files=True)
 european_weight = st.slider("Weight for European Games", 0, 10, 2)
+
+segment_input = st.text_input(
+        "Enter Time Segment Weights (separated by commas) 👇",
+    )
 
 league_ratings = {}
 
@@ -43,6 +48,8 @@ if st.button("Rank teams", type="primary"):
 
     df['Date'] = pd.to_datetime(df['Date'], format='%a %b %d %Y')
     df = df.sort_values(by=['Date'])
+    start_date = df['Date'].iloc[0]
+    df["Date_enum"] = df['Date'].apply(lambda x: (x - start_date).days + 1)
     df.reset_index(drop=True, inplace=True)
 
     st.write("## Colley Rankings")
@@ -50,15 +57,37 @@ if st.button("Rank teams", type="primary"):
     team_indices = {team: i for i, team in enumerate(teams)}
     n = len(teams)
 
+    segmentWeights = [1]
+
+    if segment_input:
+        try: 
+            segmentWeights = [float(x.strip()) for x in segment_input.split(",")]
+        except: 
+            print("Invalid input for segment weights. Please enter integers separated by commas.")
+
+    print(segmentWeights)
+
     C = 2 * np.eye(n) # diagonal initalized to 2 and incremented by games played, other entries will be updated to negative games played
     b = np.zeros(n) # later will be updated to 1 + (W-L)/2
 
     for _, row in df.iterrows():
+        day = row['Date_enum']
         team = row['Team']
         opp = row['Opp']
         pts_team = row['PTS']
         pts_opp = row['PTS_Opp']
         weight = row.get('Weight', 1.0)
+
+        lastDayOfSeason = df["Date_enum"].max()
+
+        numberSegments = len(segmentWeights)
+        weightIndex = ceil(numberSegments*((day)/(lastDayOfSeason))) - 1
+        timeWeight = segmentWeights[weightIndex]
+
+        # Uncomment the following line if you want to use a linear time weight
+        # timeWeight = day/lastDayOfSeason
+
+        weight *= timeWeight
 
         i = team_indices[team]
         j = team_indices[opp]
