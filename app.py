@@ -7,14 +7,15 @@ st.write("## File Upload")
 league_games = st.file_uploader(label="File for Domestic League Games", accept_multiple_files=True)
 league_weight = st.slider("Weight for Domestic League Games", 0, 10, 1)
 
-european_games = st.file_uploader(label="File for European Games", accept_multiple_files=True)
-european_weight = st.slider("Weight for European Games", 0, 10, 2)
+european_games = st.file_uploader(label="File for Multi-nation League Games", accept_multiple_files=True)
+european_weight = st.slider("Weight for Multi-nation League Games", 0, 10, 2)
 
 segment_input = st.text_input(
         "Enter Time Segment Weights (separated by commas) 👇",
     )
 
 league_ratings = {}
+league_counts = {}
 
 if len(league_games) > 0:
     leagues_df = pd.DataFrame()
@@ -116,9 +117,11 @@ if st.button("Rank teams", type="primary"):
         if team in league_teams:
             teams_league = leagues_df[leagues_df["Team"] == team]["League"].values[0]
             league_ratings[teams_league] += score
+            league_counts[teams_league] = league_counts.get(teams_league, 0) + 1
             st.write(f"{ranking_increment}. {team}: {score:.4f}")
             ranking_increment += 1
 
     st.write("## League Ratings")
     for league, rating in league_ratings.items():
-        st.write(f"{league}: {rating:.4f}")
+        average_rating = rating / league_counts[league]
+        st.write(f"{league}: {average_rating:.4f}")
