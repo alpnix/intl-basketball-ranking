@@ -4,4 +4,5 @@ Steps to run:
 
 
 How to use the app: 
-- Upload files with the format "<league-name_league-season.csv>
+- Upload files with the format "<league-name>_<league-season>.csv"
+- Feel free to make use of the already included files such as the "turkish-league_2324.csv", "spanish-league_2324.csv", "french-league_2324.csv", "italian-league_2324.csv" domestic games AND "eurocup_2324.csv", "euroleague_2324.csv" for multi-nation games. 
